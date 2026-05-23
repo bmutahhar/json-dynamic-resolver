@@ -1,0 +1,21 @@
+{
+  "name": "json-dynamic-resolver",
+  "version": "1.0.0",
+  "description": "Clean-room dynamic JSON rule resolver for form/model configs",
+  "main": "dist/resolver.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "demo": "tsx src/demo.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "packageManager": "pnpm@10.33.3",
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "tsx": "^4.22.3",
+    "typescript": "^6.0.3"
+  },
+  "types": "dist/resolver.d.ts"
+}
